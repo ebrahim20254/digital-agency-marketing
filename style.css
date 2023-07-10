@@ -56,3 +56,195 @@ header{
   color: white;
   background-color: chocolate;
 }
+/*************** banner section done  ******************/
+.service-container{
+    height: 70vh;
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(#e66465, #9198e5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center ;
+    padding: 50px;
+}
+.style-title{
+    color: tomato;
+}
+.btn{
+    padding: 15px 40px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+.btn:hover{
+    color: white ;
+    background-color: ;
+}
+/* .left-side-container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+} */
+.left-side-container h1{
+    font-size: 30px;
+
+}
+.left-side-container p{
+    font-size: 20px;
+    color: white;
+}
+.service-description{
+    width: 50%;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 250px;
+    height: 150px;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+.fast-two-box{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.last-two-box{
+    display: flex;
+    gap: 5px;
+   
+}
+.card{
+    width: 350px;
+    height: 400px;
+    /* background-color: aquamarine; */
+    box-shadow: 4px 8px 4px green;
+}
+.blog-container h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+
+}
+.blog-img{
+    width: 100%;
+}
+.text-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.section-container{
+    height: 70vh;
+    background-image: url('./asset/image/background.png'), linear-gradient(45deg, red, blue);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ /********** footer section start now  *************/
+
+
+ footer {
+    width: 100%;
+    background: #151414;
+  }
+  
+  .footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 0;
+  }
+  .footer-container-box1 {
+    width: 485px;
+  }
+  .footer-container h2 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+    margin-bottom: 16px;
+    color: #f8f8f8;
+  }
+  .footer-container p {
+    width: 485px;
+    margin-bottom: 24px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 162% */
+  
+    color: #bebebe;
+  }
+  .footer-container input {
+    width: 325px;
+    height: 64px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 30px;
+    /* Dark 07 */
+  
+    color: #f3f3f3;
+  }
+  .footer-container button {
+    background-color: #005fac;
+    width: 160px;
+    height: 54px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 13px;
+  }
+  .footer-container h3 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  
+  .footer-container a {
+    width: 47px;
+    height: 46px;
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 20px;
+    padding: 13px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+  }
