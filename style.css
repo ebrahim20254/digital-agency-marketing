@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: navy;
+    padding: 15px;
+}
+.nav-title{
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list-title{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.list-title:hover{
+    color:  yellowgreen;
+}
+/************* banner section start now  ***************/
+
+.banner-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('asset/image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.style-color{
+    color: red;
+}
+.banner-title h1{
+    font-size: 70px;
+    color: white;
+}
+.banner-title p{
+  font-size: 20px;
+  width: 50%;
+  color:  white;
+}
+.banner-title button{
+    padding: 15px 20px 15px;
+    border-radius: 5px;
+}
+.btn-primary{
+  color: white;
+  background-color: chocolate;
+}
