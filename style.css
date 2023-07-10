@@ -28,7 +28,8 @@ header{
 .banner-container{
     height: 100vh;
     width: 100%;
-    background-image: url('asset/image/background.jpg');
+    background-image: url('./asset/image/background.jpg'),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
